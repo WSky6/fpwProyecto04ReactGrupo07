@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Formulario from './components/Formulario.jsx'
-//⚀ ⚁ ⚂ ⚃ ⚄ ⚅
 
 const completo = {
   numeros: [1, 2, 3, 4, 5, 6],
