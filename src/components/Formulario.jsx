@@ -1,6 +1,20 @@
 const Formulario = ({ datos, setDatos }) => {
   const manejarCambio = (e) => {
-    setDatos({ ...datos, [e.target.name]: e.target.value })
+    const { name, value } = e.target;
+    if (name === "nombre" || name === "apellido") {
+    for (let caracter of value) {
+      if (
+        !(
+          (caracter >= "a" && caracter <= "z") ||
+          (caracter >= "A" && caracter <= "Z") ||
+          caracter === " "
+        )
+      ) {
+        return;
+      }
+    }
+  }
+    setDatos({ ...datos, [name]: value })
   }
 
   return (
