@@ -1,0 +1,68 @@
+body {
+  background-color: #bd3f3f; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#Contenedor {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fdfafa;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.titulo-principal {
+  color: #211e1e;
+  margin-bottom: 20px;
+}
+
+.emoji-dado {
+  font-size: 130px;
+  margin: 0;
+  color: #420000;
+  text-shadow: 2px 4px 6px rgba(0,0,0,0.2); 
+}
+
+.mensaje {
+  color: #d20000;
+  font-size: 22px;
+}
+
+.btn-lanzar {
+  background-color: #d50909;
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 20px 0;
+  transition: background-color 0.3s;
+}
+
+.btn-lanzar:hover {
+  background-color: #220000;
+}
+
+.jugador {
+  background-color: #ffdddd;
+  border: 2px double #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.jugador h3 {
+  margin-top: 0;
+  color: #630000;
+  text-align: center;
+}
+
+.jugador p {
+  margin: 8px 0;
+  color: #000000;
+}
