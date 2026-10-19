@@ -19,3 +19,14 @@
 ## Darle presentacion a la pagina dandole color y cajas
 ## Archivos Creados: ./css/App.css - Modificado: App.jsx.(solo para inssertar las clases)
 ## Uso IA: Si: Lo use de apoyo para para lograr acomodar como queria cada parte de la pagina y arreglar errores cuando ponia las y evitar que el codigo de mi compañero se arruine 
+
+
+
+
+
+
+# Carrizo Mateo
+## Corrección Punto 02
+## Agregarle restricción a nombre y apellido, solo deben aceptar letras.
+## Archivos Creados: - Modificado: components/Formulario.jsx
+## Uso IA: Si. Uso: Evaluación. Al momento de querer ver si mi código funcionaba me daba error, me ayudo a mostrarme que mi código estaba en la ubicación equivocada.
